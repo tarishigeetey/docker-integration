@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk
 COPY bin .
+EXPOSE 8080
 RUN cd bin 
 CMD ["java", "Hello"]
-EXPOSE 8080
