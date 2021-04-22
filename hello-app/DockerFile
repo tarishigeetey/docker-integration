@@ -1,0 +1,4 @@
+FROM openjdk:8-jdk
+COPY bin .
+RUN cd bin 
+CMD ["java", "Hello"]
